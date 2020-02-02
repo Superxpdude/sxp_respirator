@@ -1,0 +1,24 @@
+name = "SXP Respirator"
+prefix = "sxp"
+author = "Superxpdude"
+
+version = "1.0"
+key_name = "{{prefix}}"
+sig_name = "{{prefix}}"
+modname = "sxp_respirator"
+
+skip = []
+
+releasebuild = [
+    "@zip {{modname}}_{{version}}"
+]
+
+exclude = [
+	"*.psd",
+	"*.png",
+	"*.tga"
+]
+
+files = [
+	"mod.cpp"
+]

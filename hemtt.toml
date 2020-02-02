@@ -16,7 +16,8 @@ releasebuild = [
 exclude = [
 	"*.psd",
 	"*.png",
-	"*.tga"
+	"*.tga",
+	"*.xcf"
 ]
 
 files = [

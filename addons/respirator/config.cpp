@@ -1,4 +1,4 @@
-class cfgPatches
+class CfgPatches
 {
 	class sxp_respirator
 	{
@@ -10,9 +10,13 @@ class cfgPatches
 		requiredAddons[] = {
 			"A3_Data_F_Enoch",
 			"A3_Characters_F_Enoch",
-			"A3_Supplies_F_Enoch_Bags",
+			"A3_Supplies_F_Enoch_Bags", // Doesn't work if you don't have the contact backpacks
 			"ace_interaction"
 		};
+		requiredVersion = 1.94; // Requires the Contact DLC
+		units[] = {};
+		weapons[] = {};
+		magazines[] = {};
 		
 		// CBA Info
 		authors[] = {"Superxpdude"};
